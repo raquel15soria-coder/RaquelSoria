@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenida a mi página</h1>
+    </header>
+
+    <section>
+        <p>Este es un documento HTML llamado index.html.</p>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Mi Página Web</p>
+    </footer>
+
+    <script>
+        function mostrarMensaje() {
+            alert("Hola, esta es una página creada en HTML.");
+        }
+    </script>
+
+</body>
+</html>
